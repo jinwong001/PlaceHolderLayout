@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="UselessParent">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/placeholder_error_img"
+        android:layout_width="@dimen/common_empty_image_dimension"
+        android:layout_height="@dimen/common_empty_image_dimension"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_load_fail_empty" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/placeholder_error_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/edge_size1"
+        android:gravity="center"
+        android:text="@string/error_network"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/size_subtitle_text1" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/placeholder_error_action"
+        android:layout_width="@dimen/common_action_button_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/edge_size3"
+        android:background="@drawable/selector_common_action_bg"
+        android:gravity="center"
+        android:text="@string/error_try"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/size_title_text2" />
+</LinearLayout>
+

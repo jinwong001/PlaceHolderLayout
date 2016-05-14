@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app 主色调-->
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorWindowBackground">#F7F7F7</color>
+    <color name="colorPrimaryDark">#E5E5E5</color>
+    <color name="colorPrimaryText">#484848</color>
+    <!-- 虚拟按键背景色-->
+    <color name="colorNavigationBar">#000000</color>
+    <!-- app 强调色-->
+    <color name="colorAccent">#44ACF3</color>
+
+    <!-- 默认文本颜色-->
+    <color name="colorText">@color/colorPrimaryText</color>
+    <!-- 次要文本/icons颜色-->
+    <color name="colorSecondaryText">#A9A9A9</color>
+    <!-- //TODO  同textColorSecondary名字一样，后期删除 -->
+    <color name="colorTextOrIcons">#A9A9A9</color>
+    <!-- 失效或者暗示颜色-->
+    <color name="colorDisabledOrHint">#DBDBDB</color>
+    <!-- 选中颜色-->
+    <color name="colorSelect">#2691da</color>
+    <!-- 分割线颜色-->
+    <color name="colorDivider">#D1D1D1</color>
+    <!-- 次要分割线颜色-->
+    <color name="colorSecondaryDivider">#A5A5A5</color>
+
+    <!-- ProgressBar背景色-->
+    <color name="colorProgressBarBg">#ff9d9e9d</color>
+
+    <!-- 透明度=b0/ff-->
+    <color name="colorTransparentBlack1">#b0000000</color>
+    <!--留学申请中图片的半透明层颜色-->
+    <color name="colorTransparentBlack2">#A0000000</color>
+    <!--dashboard半透明层颜色-->
+    <color name="colorTransparentBlack3">#7F000000</color>
+    <!-- 透明度=60%-->
+    <color name="colorTransparent60">#99000000</color>
+    <!--通用搜索按钮背景颜色-->
+    <color name="colorCommonSearchBg">#e0e0e0</color>
+
+    <!-- 饼图颜色集合-->
+    <array name="colorPieList">
+        <item>#c1c2c3</item>
+        <item>#1561df</item>
+        <item>#3e82e2</item>
+        <item>#72a3e7</item>
+        <item>#E4E4E4</item>
+    </array>
+
+    <!-- 选校方案头部提示背景-->
+    <color name="colorWASIHeadBackground">#73a4e6</color>
+    <!--Android colors.xml命名规则-小驼峰命名规则,如:<color name="colorPrimary">#3F51B5</color>-->
+    <!--标题文字颜色-->
+    <color name="colorCommonTitle">#197AE3</color>
+    <!--按钮点击反馈色-->
+    <color name="colorCommonBtnPressed">#83B3E9</color>
+    <!--文本一般显示颜色-->
+    <color name="colorCommonText">#333333</color>
+    <!--输入框文本提示信息颜色-->
+    <color name="colorCommonTextInput">#D9D9D9</color>
+    <!--Button按钮文字显示-->
+    <color name="colorCommonBtnText">#FFFFFF</color>
+    <color name="colorRegionItemBgDefault">#EAF0EC</color>
+    <!-- home tab文字颜色 -->
+    <color name="colorHomeTabText">#808080</color>
+    <!-- 通用分隔线 -->
+    <color name="colorCommonBgVertDivider">#464646</color>
+    <!-- 支付类通用工作流字体颜色 -->
+    <color name="colorPayListCommonWorkflowText">#FF8801</color>
+    <!-- 支付列表费用字体颜色 -->
+    <color name="colorPaylistPriceText">#7f7f7f</color>
+    <!-- 支付列表价格颜色 -->
+    <color name="colorPaylistMoneyText">#FF8801</color>
+    <!-- 支付详情总计颜色 -->
+    <color name="colorPaydetailTotalText">#ff8e00</color>
+    <!-- 通用item分割线颜色-->
+    <color name="colorCommonItemDivider">#E0E0E0</color>
+
+    <!--文本背景颜色-->
+    <color name="colorCommonTextContainBg">@color/colorCommonTitle</color>
+    <!--选校-->
+    <!-- 选校内容文本普通颜色-->
+    <color name="colorPickSchoolContainTextNor">#808080</color>
+    <!-- 选校内容数字提示高亮颜色-->
+    <color name="colorPickSchoolContainTextHint">#197AE3</color>
+    <!-- 选校筛选选中提示高亮颜色-->
+    <color name="colorPickSchoolSortTextHint">#197AE3</color>
+    <!-- 选校类别字体，选中-->
+    <color name="colorPickSchoolCategoryTextSelect">#212121</color>
+    <!-- 选校类别字体，未选中-->
+    <color name="colorPickSchoolCategoryTextUnselect">#808080</color>
+    <!-- 学校名字颜色-->
+    <color name="colorPickSchoolSchoolCname">#333333</color>
+    <!-- 学校信息普通颜色-->
+    <color name="colorPickSchoolSchoolNor">#808080</color>
+    <!-- 加载更多字体颜色-->
+    <color name="colorPickSchoolSchoolLoadMore">#808080</color>
+    <!-- 搜索学校取消字体颜色-->
+    <color name="colorSearchCancel">#197AE3</color>
+    <color name="colorPickSchoolRemindBg">#ebebeb</color>
+    <color name="colorPickSchoolTitleTemplateText">#333333</color>
+    <color name="colorPickSchoolSchoolItemSortTextNor">#808080</color>
+
+    <!-- 意向单-->
+    <!-- 已选文本颜色-->
+    <!-- 专业英文名颜色-->
+    <color name="colorPurposeMajorENameText">#808080</color>
+    <!-- 已选文本颜色-->
+    <color name="colorPurposeSelectedText">#808080</color>
+    <color name="colorPurposeEmptyText">#808080</color>
+    <color name="colorPurposeHint">#A7A7A7</color>
+    <color name="colorPurposeItemSchoolCategoryTvBg">#eeeeee</color>
+    <!-- 学校详情-->
+    <color name="colorSchoolDetailAddPurposeText">#197AE3</color>
+    <!--意向单header 添加按钮颜色-->
+    <color name="colorPurposeItemHeaderAddBtn">#ff8801</color>
+    <!--意向单header 背景色-->
+    <color name="colorPurposeItemHeaderBackground">#4d4d4d</color>
+    <!--意向单提交按钮颜色-->
+    <color name="colorPurposeSubmitBtn">#b2b2b2</color>
+    <color name="colorPurposeItemSchoolCountryTemplateTv">#83b3e9</color>
+    <!--意向单专业分割线颜色-->
+    <color name="colorPurposeItemMajorLine">#e0e0e0</color>
+    <!--意向单学校分割线颜色-->
+    <color name="colorPurposeItemSchoolLine">#e0e0e0</color>
+    <!--意向单学校删除按钮分隔线颜色-->
+    <color name="colorPurposeItemSchoolBtnDivider">#ebebeb</color>
+    <!--意向单学校添加专业按钮颜色-->
+    <color name="colorPurposeItemSchoolAddBtn">#666666</color>
+
+
+    <!-- 选择专业-->
+    <color name="colorSubjectUnselectText">#ffffff</color>
+    <color name="colorSubjectUnselectBtnBg">#197AE3</color>
+    <color name="colorSubjectSelectText">#197AE3</color>
+    <color name="colorSubjectNormalText">#333333</color>
+    <color name="colorSubjectNormalTextEng">#808080</color>
+    <color name="colorRemoveSchoolPurpose">#83b3e9</color>
+
+    <!-- 意向单确认-->
+    <color name="colorPurposeApplyTemplateText">#ffffff</color>
+    <color name="colorPurposeApplyConfirmText">#ffffff</color>
+    <color name="colorPurposeApplyBackApplyHomeText">#ffffff</color>
+    <color name="colorPurposeApplyTemplateTextBg">#197AE3</color>
+    <color name="colorPurposeApplyConfirmTextBg">#197AE3</color>
+    <color name="colorPurposeApplyBackApplyHomeTextBg">#197AE3</color>
+    <color name="colorPurposeApplySchoolText">#333333</color>
+    <color name="colorPurposeApplySubjectCNameText">#333333</color>
+    <color name="colorPurposeApplySubjectENameText">#808080</color>
+    <color name="colorPurposeApplyAdviserTelephoneText">#808080</color>
+    <color name="colorPurposeApplyConfirmSuccessText">#FF8801</color>
+    <color name="colorPurposeApplyPleaseTelephoneHotLine">#808080</color>
+    <color name="colorPurposeApplyTelephoneHotLine">#197AE3</color>
+
+    <!-- 个性信息头像背景颜色-->
+    <color name="colorUserInfoAvatarBackground">#dddddd</color>
+    <!-- Splash 引导页开始按钮-->
+    <color name="colorStartBtn">#ff8D00</color>
+
+    <color name="colorPrimary60">#99FFFFFF</color>
+
+
+</resources>
