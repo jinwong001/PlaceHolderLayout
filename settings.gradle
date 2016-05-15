@@ -1,1 +1,1 @@
-include ':app', ':placeholderlayout'
+include ':app', ':lib'
