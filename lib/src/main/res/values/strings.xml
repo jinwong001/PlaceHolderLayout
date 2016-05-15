@@ -3,43 +3,6 @@
     <string name="app_name">placeholderlayout</string>
     <!--空布局-->
     <string name="empty_title_common">暂无数据</string>
-    <!--搜索结果为空-->
-    <string name="empty_title_search">没有搜索结果</string>
-    <!--学校列表-->
-    <string name="empty_title_school">没有筛选结果</string>
-    <string name="empty_content_school">重置或修改筛选条件试试看吧~</string>
-    <!--学校详细页（特殊）-->
-    <!--同期申请为空-->
-    <string name="empty_title_school_info_apply">近期没有申请这个学校的学生</string>
-    <!--获得offer为空-->
-    <string name="empty_title_school_info_offer">近期没有获得这个学校offer的学生</string>
-    <!--资讯列表为空-->
-    <string name="empty_title_news">没有相关资讯</string>
-    <string name="read_count">阅读</string>
-    <!--免费申请-->
-    <!--通知为空（Dashboard）-->
-    <string name="empty_title_dashboard">没有待处理的通知</string>
-    <!--申请情况-->
-    <!--待发申请为空-->
-    <string name="empty_title_unapply">你没有待发的申请</string>
-    <!--已发申请为空-->
-    <string name="empty_title_apply">你没有已发的申请</string>
-    <!--获得offer为空-->
-    <string name="empty_title_offer">你还没有获得offer</string>
-    <!--收藏-->
-    <!--收藏的资讯为空-->
-    <string name="empty_title_favorite_info">你没有收藏资讯</string>
-    <string name="empty_content_favorite_info">你收藏的资讯都会在这边看到哦~</string>
-    <!--收藏的学校为空-->
-    <string name="empty_title_favorite_school">你没有收藏学校</string>
-    <string name="empty_content_favorite_school">你收藏的学校都会在这边看到哦~</string>
-    <!--智能选校无法计算的情况（如高中）-->
-    <string name="empty_title_pick_plan">没有符合的学校</string>
-    <string name="empty_content_pick_plan">你的留学意向暂不支持在线选校,留学顾问将电话\n联系你并提供选校服务,
-        请保持手机畅通哦~</string>
-    <!--<string name="empty_title_pick_school">没有此类学校</string>-->
-    <!--活动列表为空-->
-    <string name="empty_title_activity">近期没有活动</string>
     <!-- 网络出错-->
     <string name="error_network">同学，你的网络出小差了</string>
     <string name="error_try">点击重试</string>
